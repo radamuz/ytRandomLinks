@@ -22,6 +22,9 @@ sudo apt install python3
 ```bash
 python3 ytRandomLinks.py
 ```
-
+* To start the same program, but instead of asking you every time you want to generate a link, generate the links you want at once
+```bash
+python3 ytRandomLinks100.py
+```
 ## References
 * <https://www.youtube.com/watch?v=98EuMxxlIgg&t=2s>

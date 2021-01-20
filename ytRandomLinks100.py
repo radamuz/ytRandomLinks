@@ -7,14 +7,14 @@ ascii_char = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', '
 # Making a variable that we can use to enter in while loop
 x = 0
 
-while x < 100:
+# User input
+y = int(input('\nHow many links do you want to generate?: '))
+
+while x < y:
     x += 1
     # Array of created links
     created_links = []
     
-    # User input
-    #x = input('Hit enter to generate a random Youtube link: ')
-
     # if x != '':
     #     break
 
